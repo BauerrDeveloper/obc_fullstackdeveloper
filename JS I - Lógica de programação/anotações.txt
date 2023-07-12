@@ -1,0 +1,69 @@
+--
+TIPOS DE DADOS
+Number no JS vale tanto para números inteiros ou para números com vírgula - pontos flutuantes (float)
+Bigint (exclusivamente para números inteiros) utilizado para representar números inteiros muito grandes. Existe um limite pro number
+Para trabalhar com bigint basta colocar um "n" ao fina do numero (9999999999999999999999999999n)
+Para strings pode usar tanto aspas simples quanto aspas duplas,
+Null: valor nulo, vazio, que não tem nada. Ele é vazio mas tem um valor = vazio.
+Undefined: não definido, não tem valor nenhum. Algo ao qual não foi atribuído nenhum valor. Qualquer coisa que não tem valor é undefined.
+Se eu quiser atribuir um valor, mas esse valor representar um vazio, ele é null.
+Typeof mostra o tipo de alguma coisa. 
+
+--
+VARIÁVEIS
+var = variável = esse valor pode variar
+let = forma mais moderna de declarar variáveis que mudam de valor
+const = cria um valor constante, não muda.
+
+--
+OPERADORES E EXPRESSÕES
+% usado para obter o resto da divisão
+= atribui um valor a uma variável
++= atribuição junto com uma soma 
+-= pega o valor atual e subtrai 
+*= 
+/=
+%=
+Encadeamento é ponto '.' = console.error();
+Incrementar ++ e decrementar -- 
+a++ = retorna o valor de a antes de ser incrementado
+++a = retorna o valor de a já incrementado
+
+--
+COMPARAÇÃO DE DADOS
+
+== e === > igualdade
+(==) compara apenas o valor, não compara o tipo do valor.
+    10 == "10" true: o número 10 é igual a string 10
+(===) compara tanto pro valor, quanto pro tipo. Comparação mais rígida
+    10 === "10" false: o número 10 não é igual a string 10.
+    Na maioria das vezes utilizamos esse operador para comparação. 
+    
+!= e !== > desigualdade
+(!=)  compara apenas o valor, não o tipo do valor
+(!==) compara tanto valor quanto o tipo. Na maioria das vezes utilizamos esse operador para comparação.
+
+>, >=, <, <= operadores de comparação
+
+--
+OPERADORES LÓGICOS
+Usado para avaliar expressões envolvendo valores booleanos.
+
+E (AND)(Operador: &&)
+    Retorna true quando ambas as partes forem verdadeiras
+
+OU (OR)(Operador: ||)
+    Retorna false quando ambas as partes forem falsas
+    Contrario do E (AND).
+
+NÃO (NOT)(Operador: !)
+    Inverte o resultado de verdadeiro pra falso e vice versa.
+    !true === false
+    !false === true
+
+--
+ESTRUTURAS CONDICIONAIS IF e ELSE
+Só executa quando uma operação lóegica for verdadeira.
+
+    Operador ternário: forma abreviada e autoavaliada do IF ELSE
+    const resultado = condicao ? resultado_verdadeiro : resultado_falso

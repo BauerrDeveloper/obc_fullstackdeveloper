@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Formulários</h2>
+    <p>Dentro da tag form, temos atributo action que é onde fica a url pra onde o form vai ser enviado</p>
+    <p>Tag label é um texto associado com um input. Quando clica já seleciona, isso é feito com o atributo for para um campo que tem o mesmo id que escolhemos no atributo for.</p>
+    <p>Input vai ter o id, que é o mesmo id do campo for da tag label. Assim, o label ficará associado com o input. <br> No atributo name, também passamos o mesmo que em for e em id.</p>
+    <p>Input do tipo button cria o botão.</p>
+    
+    <hr>
+
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com.br/search">
+        <label for="q">O que deseja pesquisar?</label>
+        <input type="text" name="q" id="q" placeholder="Digite...">
+        <input type="submit" value="Pesquisar">
+    </form>
+
+    <br>
+    <hr>
+
+    <h4>Validação de forms</h4>
+    <p>Atributo <strong>required</strong> faz com que o campo seja de preenchimento obrigatório. Colocado no campo desejado.</p>
+    <p>Validação de e-mail: tipo do campo deve ser e-mail</p>
+    <p>Validação min e máx. Tipo do campo number passando atributo min="10 max="12"</p>
+    <p></p>
+
+    <br><hr>
+
+    <h4>Aprofundando nos Inputs</h4>
+    <ul>
+        <li>name</li>
+        <li>password</li>
+        <li>button submit</li>
+        <li>radio. tem que manter o mesmo name em todos eles. name no input de cada opção é igual ao name da label</li>
+        <li>checkbox. tem o name diferente. manda pro server quem tá ativo ou inativo</li>
+        <li>color. permite que selecione uma cor e manda o hexadecimanl</li>
+        <li>data</li>
+        <li>arquivo. qual arquivo vai enviar</li>
+        <li>range com min e max</li>
+        <li>search</li>
+        <li>url</li>
+        <li>select. para as opções option. para definir o valor padrão usar selected no valor desejado</li>
+    </ul>
+</body>
+</html>
