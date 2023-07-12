@@ -1,17 +1,24 @@
-const nomeP1 = prompt("Qual o nome do primeiro personagem?");
-let ataqueP1 = parseFloat(prompt("Qual o poder de ataque do(a) " + nomeP1 + "?"));
+const atacante = prompt("Qual é o nome do personagem atacante?")
+const poderDeAtaque = parseFloat(prompt("Qual é o seu poder de ataque?"))
 
-const nomeP2 = prompt("Qual o nome do segundo personagem?");
-let qtdePontosVidaP2 = parseFloat(prompt("Qual a quantidade de pontos de vida do(a) " + nomeP2 + "?"));
-let poderDefesaP2 = parseFloat(prompt("Qual o poder de defesa do(a) " + nomeP2 + "?"));
-let possuiEscudoP2 = prompt(nomeP2 + " possui escudo? Responda com Sim ou Não apenas.");
+const defensor = prompt("Qual é nome do personagem defensor?")
+let pontosDeVida = parseFloat(prompt("Quantos pontos de vida ele possui?"))
+const poderDeDefesa = parseFloat(prompt("Qual é o seu poder de defesa?"))
+const possuiEscudo = prompt("Ele possui um escudo? (Sim/Não)")
 
-let danoCausado = 0;
+let danoCausado = 0
 
-if (ataqueP1 > poderDefesaP2 && possuiEscudoP2 === "Não") {
-  danoCausado = qtdePontosVidaP2 - ataqueP1;
-} else if (ataqueP1 > poderDefesaP2 && possuiEscudoP2 === "Sim") {
-  danoCausado = (qtdePontosVidaP2 - ataqueP1) / 2;
+if (poderDeAtaque > poderDeDefesa && possuiEscudo === "Não") {
+  danoCausado = poderDeAtaque - poderDeDefesa
+} else if (poderDeAtaque > poderDeDefesa && possuiEscudo === "Sim") {
+  danoCausado = (poderDeAtaque - poderDeDefesa) / 2
 }
 
-qtdePontosVidaP2 -= danoCausado
+pontosDeVida -= danoCausado
+
+alert(atacante + " causou " + danoCausado + " pontos de dano em " + defensor)
+alert(
+  atacante + "\nPoder de ataque: " + poderDeAtaque + "\n\n" +
+  defensor + "\nPontos de vida: " + pontosDeVida +
+  "\nPoder de defesa: " + poderDeDefesa + "\nPossui escudo: " + possuiEscudo
+)
