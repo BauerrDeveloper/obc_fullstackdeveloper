@@ -67,3 +67,8 @@ Só executa quando uma operação lóegica for verdadeira.
 
     Operador ternário: forma abreviada e autoavaliada do IF ELSE
     const resultado = condicao ? resultado_verdadeiro : resultado_falso
+
+ -- 
+ ESTRUTURAS CONDICIONAIS SWITCH
+ Permite criar blocos condicionais como o IF, mas o switch avalia uma expressão e testa seu resultado contra vários outros casos. Se corresponder, ele executa.
+ Também é possível definir um valor padrão que é sempre executado e também é possível parar a execução após algum dos casos. 
