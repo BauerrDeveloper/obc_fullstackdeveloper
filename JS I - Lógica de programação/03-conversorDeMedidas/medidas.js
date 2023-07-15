@@ -5,7 +5,8 @@ const opcaoSelecionada = parseFloat(prompt("Para qual medida deseja a conversão
     "3) Decímetro\n"  +  
     "4 Decâmetro \n" +
     "5) Hectômetro \n" + 
-    "6) Quilômetro"))
+    "6) Quilômetro \n" +
+    "7) Via ipad não tem conversão!"))
 
 switch (opcaoSelecionada) {
     case 1:
@@ -25,6 +26,9 @@ switch (opcaoSelecionada) {
         break;
     case 6:
         alert("Você selecionou a conversão para Quilômetro. \nO resultado da conversão é: " + (valorEmMetros / 1000) + "km")
+        break;
+    case 7:
+        alert("Inserido via ipad.")
         break;
     default:
         alert("Você não selecionou uma das opções válidas.")
