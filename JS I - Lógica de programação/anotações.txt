@@ -72,3 +72,8 @@ Só executa quando uma operação lóegica for verdadeira.
  ESTRUTURAS CONDICIONAIS SWITCH
  Permite criar blocos condicionais como o IF, mas o switch avalia uma expressão e testa seu resultado contra vários outros casos. Se corresponder, ele executa.
  Também é possível definir um valor padrão que é sempre executado e também é possível parar a execução após algum dos casos. 
+
+ --
+ ESTRUTURAS CONDICIONAIS WHILE
+ Executado enquanto uma determinada condição for verdadeira. Aceita o break para parar a qualquer momento.
+ Importante: deve sempre existir uma forma da condição se tornar falsa, ou ficará executando para sempre.
