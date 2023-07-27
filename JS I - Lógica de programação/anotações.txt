@@ -77,3 +77,8 @@ Só executa quando uma operação lóegica for verdadeira.
  ESTRUTURAS CONDICIONAIS WHILE
  Executado enquanto uma determinada condição for verdadeira. Aceita o break para parar a qualquer momento.
  Importante: deve sempre existir uma forma da condição se tornar falsa, ou ficará executando para sempre.
+
+ --
+ ESTRUTURAS CONDICIONAIS DO WHILE
+ Muito parecido com o While, mas o do whilw executa o bloco de cõdigo pelo menos uma vez, mesmo que a condição seja falsa. 
+ A primeira verificação da condição só acontece depois que o bloco é executado uma vez.
