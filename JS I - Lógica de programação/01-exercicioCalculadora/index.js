@@ -2,7 +2,7 @@ let firstNumber = prompt('Primeiro número: ')
 let secondNumber = prompt('Segundo número: ')
 
 let trasnformadoNumero1 = parseFloat(firstNumber)
-let trasnformadoNumero2 = parseFloat(firstNumber)
+let trasnformadoNumero2 = parseFloat(secondNumber)
 
 const soma = trasnformadoNumero1 + trasnformadoNumero2
 
