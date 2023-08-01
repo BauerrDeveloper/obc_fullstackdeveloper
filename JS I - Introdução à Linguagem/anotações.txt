@@ -82,3 +82,6 @@ Só executa quando uma operação lóegica for verdadeira.
  ESTRUTURAS CONDICIONAIS DO WHILE
  Muito parecido com o While, mas o do whilw executa o bloco de cõdigo pelo menos uma vez, mesmo que a condição seja falsa. 
  A primeira verificação da condição só acontece depois que o bloco é executado uma vez.
+
+ --
+ ESTRUTURAS DE REPETIÇÃO FOR
