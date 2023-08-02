@@ -85,3 +85,6 @@ Só executa quando uma operação lóegica for verdadeira.
 
  --
  ESTRUTURAS DE REPETIÇÃO FOR
+ Inicialização: expressão executada antes de tudo
+ Condição: semelhante ao while, é testada antes da execução do bloco de repetição
+ Finalização: expressão executada após o bloco de repetição
